@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+.container{
+	text-align:center;
+	margin-top:20px;
+}
+.inner{
+	padding:10px;
+}
+.board{
+	display:grid;
+	grid-template-columns:repeat(3,100px);
+	gap:2px;
+	width:302px;
+	
+}
+.cell{
+	 width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  background-color: pink;
+  cursor: pointer;
+}

@@ -8,6 +8,35 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	
+    <div class="container">
+		<h1>Tic Tae Toe</h1>
+		<div id="players">
+		<div class="inner">Player1
+		<input type="text" id="player-1" placeholder="enter name">
+		</div>
+			<div class="inner">Player2
+		<input type="text" id="player-2" placeholder="enter name">
+			</div>
+		<button id="submit" onclick="startGame()">Start Game</button>
+		</div>
+		
+		<div id="message" class="message"></div>
+		 <div class="board" id="board">
+      <div class="cell" id="1" onclick="handleMove(1)"></div>
+      <div class="cell" id="2" onclick="handleMove(2)"></div>
+      <div class="cell" id="3" onclick="handleMove(3)"></div>
+      <div class="cell" id="4" onclick="handleMove(4)"></div>
+      <div class="cell" id="5" onclick="handleMove(5)"></div>
+      <div class="cell" id="6" onclick="handleMove(6)"></div>
+      <div class="cell" id="7" onclick="handleMove(7)"></div>
+      <div class="cell" id="8" onclick="handleMove(8)"></div>
+      <div class="cell" id="9" onclick="handleMove(9)"></div>
+    </div>
+	</div>
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
